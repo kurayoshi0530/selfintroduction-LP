@@ -123,7 +123,6 @@
         <title>お問合せフォーム</title>
     </head>
     <body>
-        <a href="index.php">トップページへ戻る</a>
         <?php if( $mode == 'input' ) { ?> <!-- $modeの値を判断して表示するページを変える -->
             <!---------- 入力画面表示 ---------->
             <?php
@@ -140,6 +139,7 @@
                 }
             ?>
             <div class="container-fluid">
+                <a href="index.php">トップページへ戻る</a>
                 <div class="inquiries">
                     <form action="./contactform.php" method="post"> <!-- action属性で次の画面に遷移する時に呼び出すファイルを指定する ./はカレントディレクトリの意味 -->
                         <label for="fullname">名前</label>

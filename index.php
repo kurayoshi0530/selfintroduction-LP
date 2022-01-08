@@ -12,17 +12,22 @@
         <!-- リセットCSSを読み込む -->
         <link rel="stylesheet" href="css/reset.css">
         <!-- 自作のCSSを読み込む -->
-        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <link rel="stylesheet" href="css/style.css">
         <!-- BootStrapを読み込む -->
         <link href="css/BootStrap.css/bootstrap.min.css" rel="stylesheet">
-        <title>self-introduction</title>
+        <title>kurayoshi's portfolio</title>
         <!-- jQueryを読み込む -->
         <script src="js/jquery-3.6.0.min.js"></script>
     </head>
 
     <body>
-
-        <a href="contactform.php">お問合せページへ</a>
+        <div class="container-fluid">
+            <!---------- タイトル表示 ---------->
+            <div class="text-center h1 title">
+                <h1>kurayoshi's portfolio</h1>
+            </div>
+            <!---------- /タイトル表示 ---------->
+            <a href="contactform.php">お問合せページへ</a>
         </div> <!-- end container -->
         <!-- BootStrapを読み込む -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

@@ -5,13 +5,29 @@
 
 body {
     letter-spacing: 0.1em;
-    display: none;
 }
 
 .container-fluid {
     width: 100vw;
     height: 100vh;
     background: radial-gradient(#f7f9f8, #dcf5dc,)
+}
+
+.title {
+    h1 {
+        background-image: url(https://media.giphy.com/media/Jb90XJYZbZGvK/giphy.gif);
+        // background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        font-size: 140px;
+        text-align: left;
+        margin: 0 auto;
+        width: min-content;
+        font-size: calc(1.375rem + 1.5vw); // BootStrap導入してあるなら画面幅によって文字サイズが変わる
+    }
 }
 
 
