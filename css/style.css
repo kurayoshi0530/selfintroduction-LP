@@ -5,24 +5,13 @@
 
 body {
   letter-spacing: 0.1em;
+  display: none;
 }
 
 .container-fluid {
   width: 100vw;
   height: 100vh;
   background: radial-gradient(#f7f9f8, #dcf5dc);
-}
-
-.LP-title {
-  margin-bottom: 60px;
-}
-
-.contents .text-content {
-  margin-bottom: 80px;
-}
-.contents h2 {
-  color: red;
-  margin-bottom: 40px;
 }
 
 .inquiries form, .inquiries-confirm form, .send-completely form {

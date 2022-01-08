@@ -5,6 +5,7 @@
 
 body {
     letter-spacing: 0.1em;
+    display: none;
 }
 
 .container-fluid {
@@ -13,19 +14,6 @@ body {
     background: radial-gradient(#f7f9f8, #dcf5dc,)
 }
 
-.LP-title {
-    margin-bottom: 60px;
-}
-
-.contents {
-    .text-content {
-    margin-bottom: 80px;
-    }
-    h2 {
-    color: red;
-    margin-bottom: 40px;
-    }
-}
 
 .inquiries, .inquiries-confirm, .send-completely {
     form {
