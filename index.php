@@ -21,12 +21,94 @@
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container">
             <!---------- タイトル表示 ---------->
-            <div class="text-center h1 title">
+            <div class="text-center title">
                 <h1>kurayoshi's portfolio</h1>
             </div>
             <!---------- /タイトル表示 ---------->
+
+            <!---------- ABOUT表示 ---------->
+            <div class="about">
+                <div class="text-center about-title">
+                    <h2>ABOUT</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 about-contents">
+                        <img class="mx-auto d-block" src="images/icon-haikeinashi.PNG" alt="キャラアイコン" title="kurayoshiアイコン" width="200" height="200">
+                        <div class="text-center personal-info">
+                            <p>倉地良彦 （くらちよしひこ）</p>
+                            <p>愛知県在住</p>
+                            <p>フリーランスWEBエンジニア</p>
+                        </div>
+
+                        <div class="profile-title">
+                            <h4>こんな人ですよ</h4>
+                        </div>
+                        <div class="profile-contents">
+                            <p>高卒で某自動車部品製造工場で金型修理を25年やってきました。<br>
+                                体力の衰えを考えると将来が不安になり、プログラミングを通して時代に取り残されない思考を養いつつ生涯現役で頑張っていこうと思っています。</p>
+                            <h6>好きな事</h6>
+                            <p>カラオケ<br>（20年くらい前のパンク系が好きです）</p>
+                        </div>
+                    </div> <!-- end about-contents -->
+
+                    <div class="col-lg-6 skill">
+                        <div class="skill-title">
+                            <h3>スキル <span>（随時更新中）</span></h3>
+                        </div>
+                        <div class="skill-contents">
+                            <p>・HP、LPのコーディング</p>
+                            <p>・WordPressを使ったWEBサイト構築</p>
+                            <p>・レスポンシブデザイン対応</p>
+                        </div>
+
+                        <div class="skill-title">
+                            <h3>対応可能言語</h3>
+                        </div>
+                        <div class="supported-language">
+                            <ul>
+                                <li div class="text-center icon">
+                                    <img src="https://img.icons8.com/ios-filled/50/000000/html-5--v1.png"/>
+                                    <p>HTML</p>
+                                </li>
+                                <li class="text-center icon">
+                                    <img src="https://img.icons8.com/ios-filled/50/000000/css3.png"/>
+                                    <p>CSS</p>
+                                </li>
+                                <li class="text-center icon">
+                                    <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
+                                    <p>JavaScript</p>
+                                </li>
+                                <li class="text-center icon">
+                                    <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
+                                    <p>jQuery</p>
+                                </li>
+                                <li class="text-center icon">
+                                    <img src="https://img.icons8.com/ios-filled/50/000000/php-logo.png"/>
+                                    <p>PHP</p>
+                                </li>
+                                <li class="text-center icon">
+                                    <img src="https://img.icons8.com/ios-filled/50/000000/wordpress--v1.png"/>
+                                    <p>WordPress</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-title">
+                            <h3>仕事をする上で意識している事</h3>
+                        </div>
+                        <div class="be-conscious">
+                            <p>・レスポンスは早くする。（すぐにレスポンス出来ない時はメッセージで折り返し出来る日時を連絡する。）</p>
+                            <p>・クライアント様とのヒアリングは気軽に相談できる雰囲気を大事にしています。</p>
+                            <p>・クライアント様のご要望をヒアリングシートを使って共有して認識のズレが無いようにします。</p>
+                            <p>・報連相をしっかりする。</p>
+                        </div>
+                    </div> <!-- end skill -->
+                </div> <!-- end row -->
+            </div> <!-- end about -->
+            <!---------- /ABOUT表示 ---------->
+
             <a href="contactform.php">お問合せページへ</a>
         </div> <!-- end container -->
         <!-- BootStrapを読み込む -->

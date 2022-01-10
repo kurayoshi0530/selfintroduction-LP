@@ -5,12 +5,10 @@
 
 body {
     letter-spacing: 0.1em;
-}
-
-.container-fluid {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background: radial-gradient(#f7f9f8, #dcf5dc,)
+    center / cover;
 }
 
 .title {
@@ -26,7 +24,35 @@ body {
         text-align: left;
         margin: 0 auto;
         width: min-content;
-        font-size: calc(1.375rem + 1.5vw); // BootStrap導入してあるなら画面幅によって文字サイズが変わる
+    }
+}
+
+.about {
+    margin-top: 50px;
+    .personal-info {
+        margin-top: 30px;
+    }
+    .supported-language ul {
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+        padding-left: 0;
+        flex-wrap: wrap;
+        margin: 0;
+        li {
+            margin-right: 20px;
+        }
+    }
+}
+
+.skill {
+    h3 {
+        border-bottom: 3px double #000;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    .skill-title span {
+        font-size: 24px;
     }
 }
 
@@ -40,5 +66,32 @@ body {
 
     .button {
         text-align: center;
+    }
+}
+
+// タブレットのブレイクポイント設定
+@media (max-width: 834px) {
+    h1 {
+        font-size: 100px!important;
+    }
+}
+
+// スマホのブレイクポイント設定
+@media (max-width: 430px) {
+    h1 {
+        font-size: 45px!important;
+    }
+    .profile-contents {
+        font-size: 16px!important;
+    }
+    .supported-language {
+        p {
+            font-size: 16px!important;
+        }
+    }
+    .skill-contents, .be-conscious {
+        p {
+            font-size: 16px!important;
+        }
     }
 }
