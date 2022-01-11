@@ -9,6 +9,9 @@ body {
   min-height: 100vh;
   background: radial-gradient(#f7f9f8, #dcf5dc) center/cover;
 }
+body .heading h2 {
+  margin-top: 50px;
+}
 
 .title h1 {
   background-image: url(https://media.giphy.com/media/Jb90XJYZbZGvK/giphy.gif);
@@ -25,9 +28,6 @@ body {
   width: min-content;
 }
 
-.about {
-  margin-top: 50px;
-}
 .about .personal-info {
   margin-top: 30px;
 }
@@ -57,6 +57,21 @@ body {
   font-size: 24px;
 }
 
+.service-contents span {
+  font-weight: bold;
+}
+.service-contents ul {
+  padding: 0;
+  list-style: none;
+}
+.service-contents li {
+  background: #eee;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 20px;
+  padding: 50px 20px;
+}
+
 .inquiries form, .inquiries-confirm form, .send-completely form {
   padding-top: 10px;
   max-width: 600px;
@@ -73,7 +88,11 @@ body {
 }
 @media (max-width: 430px) {
   h1 {
-    font-size: 45px !important;
+    font-size: 50px !important;
+  }
+
+  h2 {
+    font-size: 40px !important;
   }
 
   .profile-contents {
@@ -85,6 +104,10 @@ body {
   }
 
   .skill-contents p, .be-conscious p {
+    font-size: 16px !important;
+  }
+
+  .service-contents p {
     font-size: 16px !important;
   }
 }

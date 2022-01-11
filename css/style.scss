@@ -9,6 +9,9 @@ body {
     min-height: 100vh;
     background: radial-gradient(#f7f9f8, #dcf5dc,)
     center / cover;
+    .heading h2 {
+        margin-top: 50px;
+    }
 }
 
 .title {
@@ -28,7 +31,6 @@ body {
 }
 
 .about {
-    margin-top: 50px;
     .personal-info {
         margin-top: 30px;
     }
@@ -56,6 +58,22 @@ body {
     }
 }
 
+.service-contents {
+    span {
+        font-weight: bold;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        background: #eee;
+        text-align: center;
+        border-radius: 20px;
+        margin: 30px 20px;
+        padding: 50px 20px;
+    }
+}
 
 .inquiries, .inquiries-confirm, .send-completely {
     form {
@@ -79,7 +97,10 @@ body {
 // スマホのブレイクポイント設定
 @media (max-width: 430px) {
     h1 {
-        font-size: 45px!important;
+        font-size: 50px!important;
+    }
+    h2 {
+        font-size: 40px!important;
     }
     .profile-contents {
         font-size: 16px!important;
@@ -90,6 +111,11 @@ body {
         }
     }
     .skill-contents, .be-conscious {
+        p {
+            font-size: 16px!important;
+        }
+    }
+    .service-contents {
         p {
             font-size: 16px!important;
         }

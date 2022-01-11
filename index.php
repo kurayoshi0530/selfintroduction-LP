@@ -28,9 +28,9 @@
             </div>
             <!---------- /タイトル表示 ---------->
 
-            <!---------- ABOUT表示 ---------->
+            <!---------- about表示 ---------->
             <div class="about">
-                <div class="text-center about-title">
+                <div class="text-center heading">
                     <h2>ABOUT</h2>
                 </div>
                 <div class="row">
@@ -68,27 +68,27 @@
                         </div>
                         <div class="supported-language">
                             <ul>
-                                <li div class="text-center icon">
+                                <li class="text-center icon sup-lang">
                                     <img src="https://img.icons8.com/ios-filled/50/000000/html-5--v1.png"/>
                                     <p>HTML</p>
                                 </li>
-                                <li class="text-center icon">
+                                <li class="text-center icon sup-lang">
                                     <img src="https://img.icons8.com/ios-filled/50/000000/css3.png"/>
                                     <p>CSS</p>
                                 </li>
-                                <li class="text-center icon">
+                                <li class="text-center icon sup-lang">
                                     <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
                                     <p>JavaScript</p>
                                 </li>
-                                <li class="text-center icon">
+                                <li class="text-center icon sup-lang">
                                     <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
                                     <p>jQuery</p>
                                 </li>
-                                <li class="text-center icon">
+                                <li class="text-center icon sup-lang">
                                     <img src="https://img.icons8.com/ios-filled/50/000000/php-logo.png"/>
                                     <p>PHP</p>
                                 </li>
-                                <li class="text-center icon">
+                                <li class="text-center icon sup-lang">
                                     <img src="https://img.icons8.com/ios-filled/50/000000/wordpress--v1.png"/>
                                     <p>WordPress</p>
                                 </li>
@@ -107,7 +107,32 @@
                     </div> <!-- end skill -->
                 </div> <!-- end row -->
             </div> <!-- end about -->
-            <!---------- /ABOUT表示 ---------->
+            <!---------- /abour表示 ---------->
+
+            <!---------- service表示 ---------->
+            <div class="service">
+                <div class="text-center heading">
+                    <h2>service</h2>
+                </div>
+                <div class="service-contents">
+                    <ul>
+                        <li class="ser-content">
+                            <h3>Webサイト（HP,LP）制作</h3>
+                            <p>クライアント様が作りたいサイトを綿密なヒアリングを通して形にします。<br><span>詳細は下記リンクでご確認ください。</span></p>
+                            <div class="d-flex justify-content-evenly service-link">
+                                <a href="https://coconala.com/services/1988888?ref=top_histories&ref_kind=home&ref_no=2">HP制作</a>
+                                <a href="https://coconala.com/services/1995057?ref=top_histories&ref_kind=home&ref_no=2">LP制作</a>
+                            </div>
+                        </li>
+                        <li class="ser-content">
+                            <h3>レスポンシブデザイン対応</h3>
+                            <p>PC、タブレット、スマホ全ての端末で見やすいデザインを心がけてHP、LP作成します。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- end service -->
+            <!---------- /service表示 ---------->
+
 
             <a href="contactform.php">お問合せページへ</a>
         </div> <!-- end container -->
