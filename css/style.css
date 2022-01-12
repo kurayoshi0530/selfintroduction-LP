@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +14,98 @@ body .heading h2 {
   margin-top: 100px;
 }
 
+/*
+------------------------------
+メニュー機能のCSS
+------------------------------
+*/
+/* ----- メニューボタン ----- */
+#btn-menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 68px;
+  height: 60px;
+  margin: 10px 10px 0 0;
+  padding: 0 15px;
+  color: #fff;
+  background: gray;
+  z-index: 100;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  position: fixed;
+}
+
+/* MENUの上の白線3本のCSS */
+#btn-menu span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #fff;
+}
+
+#btn-menu span:nth-of-type(1) {
+  margin: 5px 0 0;
+}
+
+#btn-menu span:nth-of-type(2) {
+  margin: 8px 0 0;
+}
+
+#btn-menu span:nth-of-type(3) {
+  margin: 8px 0 0;
+}
+
+/* ----- メニューボタン ここまで ----- */
+/* ----- メニュー ----- */
+#sp-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  overflow: scroll;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  /* メニューを0.5秒かけて表示(フェードイン) */
+  opacity: 0;
+}
+
+.open-menu #sp-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+#sp-menu-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sp-menu-list {
+  list-style: none;
+}
+
+.sp-menu-list a {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+/* ----- メニュー ここまで ----- */
+/*
+------------------------------
+メニュー機能のCSS ここまで
+------------------------------
+*/
+.title {
+  margin-top: 100px;
+}
 .title h1 {
   background-image: url(https://media.giphy.com/media/Jb90XJYZbZGvK/giphy.gif);
   background-size: cover;
@@ -116,6 +209,10 @@ body .heading h2 {
 .works .story-important p {
   margin: 0;
   padding: 0;
+}
+
+.contact {
+  padding-bottom: 30px;
 }
 
 .inquiries form, .inquiries-confirm form, .send-completely form {

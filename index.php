@@ -26,14 +26,38 @@
 
     <body>
         <div class="container">
+            <!---------- メニュー表示 ---------->
+                <!-- メニューボタン -->
+                <button id="btn-menu">
+                    <!-- MENUの上の白線3本 -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <!-- ここまで -->
+                </button>
+
+                <!-- メニュー -->
+                <nav id="sp-menu">
+                    <div id="sp-menu-position">
+                        <ul class="sp-menu-list">
+                            <li class="col"><a href="#top">top</a></li>
+                            <li class="col"><a href="#about">about</a></li>
+                            <li class="col"><a href="#service">service</a></li>
+                            <li class="col"><a href="#works">works</a></li>
+                            <li class="col"><a href="#contact">contact</a></li>
+                        </ul>
+                    </div> <!-- end sp-menu-position -->
+                </nav> <!-- end sp-menu -->
+            <!---------- /メニュー表示 ---------->
+
             <!---------- タイトル表示 ---------->
-            <div class="text-center title">
+            <div id="title" class="text-center title">
                 <h1>kurayoshi's portfolio</h1>
             </div>
             <!---------- /タイトル表示 ---------->
 
             <!---------- about表示 ---------->
-            <div class="about">
+            <div id="about" class="about">
                 <div class="text-center heading">
                     <h2>ABOUT</h2>
                 </div>
@@ -114,7 +138,7 @@
             <!---------- /abour表示 ---------->
 
             <!---------- service表示 ---------->
-            <div class="service">
+            <div id="service" class="service">
                 <div class="text-center heading">
                     <h2>service</h2>
                 </div>
@@ -139,7 +163,7 @@
 
             <!---------- works表示 ---------->
 
-            <div class="works">
+            <div id="works" class="works">
                 <div class="text-center heading">
                     <h2>works</h2>
                 </div>
@@ -178,13 +202,17 @@
             </div> <!-- end works -->
             <!---------- /works表示 ---------->
 
-            <a href="contactform.php">お問合せページへ</a>
+            <div id="contact" class="contact">
+                <a href="contactform.php">お問合せページへ</a>
+            </div>
         </div> <!-- end container -->
+
         <!-- BootStrapを読み込む -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/BootStrap.js/bootstrap.min.js"></script>
         <!-- BootStrap読み込む ここまで -->
-        <script src="js/sample-LP.js" async></script>
+
+        <script src="js/selfintroduction.js" async></script>
     </body>
 
 </html>
