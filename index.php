@@ -15,9 +15,13 @@
         <link rel="stylesheet" href="css/style.css">
         <!-- BootStrapを読み込む -->
         <link href="css/BootStrap.css/bootstrap.min.css" rel="stylesheet">
-        <title>kurayoshi's portfolio</title>
+        <!-- 画像をポップアップで表示させる -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
         <!-- jQueryを読み込む -->
         <script src="js/jquery-3.6.0.min.js"></script>
+        <title>kurayoshi's portfolio</title>
     </head>
 
     <body>
@@ -114,7 +118,7 @@
                 <div class="text-center heading">
                     <h2>service</h2>
                 </div>
-                <div class="service-contents">
+                <div class="service-container">
                     <ul>
                         <li class="ser-content">
                             <h3>Webサイト（HP,LP）制作</h3>
@@ -133,6 +137,46 @@
             </div> <!-- end service -->
             <!---------- /service表示 ---------->
 
+            <!---------- works表示 ---------->
+
+            <div class="works">
+                <div class="text-center heading">
+                    <h2>works</h2>
+                </div>
+                <div class="text-center notes">
+                    <p>画像をクリックすると拡大されます</p>
+                </div>
+                <div class="works-container">
+                    <!-- 画像はポップアップで表示(jQueryのlightboxを使用 headタグ内で読み込み) -->
+                    <div id="works-image" class="justify-content-around text-center row">
+                        <div class="col-lg-4 image-trim">
+                            <a href="images/オリジナルアプリ関係/ルート検索画面大.png" data-lightbox="group"><img src="images/オリジナルアプリ関係/ルート検索画面小.png"></a>
+                            <h5>ルート検索画面</h5>
+                        </div>
+                        <div class="col-lg-4 image-trim">
+                            <a href="images/オリジナルアプリ関係/レビュー投稿画面大.png" data-lightbox="group"><img src="images/オリジナルアプリ関係/レビュー投稿画面小.png"></a>
+                            <h5>レビュー投稿画面</h5>
+                        </div>
+                        <div class="col-lg-4 image-trim">
+                            <a href="images/オリジナルアプリ関係/API・プラグイン画面大.png" data-lightbox="group"><img src="images/オリジナルアプリ関係/API・プラグイン画面小.png"></a>
+                            <h5>API・プラグイン実装画面</h5>
+                        </div>
+                    </div> <!-- end row -->
+
+                    <div class="text-center create-secretstory">
+                        <h3>制作秘話</h3>
+                    </div>
+                    <div class="col-lg-12 text-left story-content">
+                        <p>開発当初はprogateのHTML＆CSSとプログラミングスクールでwordPressとPHPの教材をやった程度の知識からスタートしました。</p>
+                        <p>基本もままならない状態からスタートして、環境構築から一通りの機能実装まで４ヶ月程掛かりました。</p>
+                        <p>Dockerで環境構築する際に<span>Mac bookが動かなくなり</span>、OSを再インストールした時は冷や汗かきました。</p>
+                    </div>
+                    <div class="text-left story-important">
+                        <p>頑張ってきた結果制作当初に比べて,自分で考えて解決する力が上がりました。</p>
+                    </div>
+                </div>
+            </div> <!-- end works -->
+            <!---------- /works表示 ---------->
 
             <a href="contactform.php">お問合せページへ</a>
         </div> <!-- end container -->
