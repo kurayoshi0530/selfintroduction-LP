@@ -121,6 +121,9 @@ body .heading h2 {
   width: min-content;
 }
 
+.about .profile-contents {
+  background-color: #ffffff;
+}
 .about .personal-info {
   margin-top: 30px;
 }

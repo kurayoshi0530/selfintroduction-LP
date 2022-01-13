@@ -63,7 +63,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 about-contents">
-                        <img class="mx-auto d-block" src="images/icon-haikeinashi.PNG" alt="キャラアイコン" title="kurayoshiアイコン" width="200" height="200">
+                        <img class="mx-auto d-block character-icon" src="images/icon-haikeinashi.PNG" alt="キャラアイコン" title="kurayoshiアイコン" width="200" height="200">
                         <div class="text-center personal-info">
                             <p>倉地良彦 （くらちよしひこ）</p>
                             <p>愛知県在住</p>
