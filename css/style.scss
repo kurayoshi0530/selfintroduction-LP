@@ -174,6 +174,19 @@ body {
             box-shadow: 15px 15px 20px #717271;
             margin-bottom: 30px;
         }
+        // ----- 画像をスライドインで表示させる （jQueryで実装） -----
+        .work-img {
+            transform:translateX(-50px); /* 最初は元の位置より左にずらしておく */
+            opacity:0;  /* 最初は非表示にしておく */
+            transition:opacity 1s,transform 0.5s; /* 透明度と位置を設定 */
+        }
+        /* 条件を満たしたあとに追加するクラス */
+        .fadein{
+            opacity:1; /* 表示させる */
+            transform:translateX(0); /* 位置を最初の位置に戻す */
+            transition: 1.0s ease-in-out ; /* フェードイン速度の調整 */
+        }
+        // ----- 画像をスライドインで表示させる ここまで -----
     }
     .create-secretstory {
         h3 {

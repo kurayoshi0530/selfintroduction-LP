@@ -174,15 +174,15 @@
                     <!-- 画像はポップアップで表示(jQueryのlightboxを使用 headタグ内で読み込み) -->
                     <div id="works-image" class="justify-content-around text-center row">
                         <div class="col-lg-4 image-trim">
-                            <a href="images/オリジナルアプリ関係/ルート検索画面大.png" data-lightbox="group"><img src="images/オリジナルアプリ関係/ルート検索画面小.png"></a>
+                            <a href="images/オリジナルアプリ関係/ルート検索画面大.png" data-lightbox="group"><img class="work-img" src="images/オリジナルアプリ関係/ルート検索画面小.png"></a>
                             <h5>ルート検索画面</h5>
                         </div>
                         <div class="col-lg-4 image-trim">
-                            <a href="images/オリジナルアプリ関係/レビュー投稿画面大.png" data-lightbox="group"><img src="images/オリジナルアプリ関係/レビュー投稿画面小.png"></a>
+                            <a href="images/オリジナルアプリ関係/レビュー投稿画面大.png" data-lightbox="group"><img class="work-img" src="images/オリジナルアプリ関係/レビュー投稿画面小.png"></a>
                             <h5>レビュー投稿画面</h5>
                         </div>
                         <div class="col-lg-4 image-trim">
-                            <a href="images/オリジナルアプリ関係/API・プラグイン画面大.png" data-lightbox="group"><img src="images/オリジナルアプリ関係/API・プラグイン画面小.png"></a>
+                            <a href="images/オリジナルアプリ関係/API・プラグイン画面大.png" data-lightbox="group"><img class="work-img" src="images/オリジナルアプリ関係/API・プラグイン画面小.png"></a>
                             <h5>API・プラグイン実装画面</h5>
                         </div>
                     </div> <!-- end row -->

@@ -168,10 +168,35 @@ body .heading h2 {
 .works .notes {
   color: red;
 }
+.works #works-image {
+  /* 条件を満たしたあとに追加するクラス */
+}
 .works #works-image img {
   -webkit-box-shadow: 15px 15px 20px #717271;
           box-shadow: 15px 15px 20px #717271;
   margin-bottom: 30px;
+}
+.works #works-image .work-img {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  /* 最初は元の位置より左にずらしておく */
+  opacity: 0;
+  /* 最初は非表示にしておく */
+  -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+  transition: opacity 1s, -webkit-transform 0.5s;
+  transition: opacity 1s, transform 0.5s;
+  transition: opacity 1s, transform 0.5s, -webkit-transform 0.5s;
+  /* 透明度と位置を設定 */
+}
+.works #works-image .fadein {
+  opacity: 1;
+  /* 表示させる */
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  /* 位置を最初の位置に戻す */
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  /* フェードイン速度の調整 */
 }
 .works .create-secretstory h3 {
   color: #5d627b;
