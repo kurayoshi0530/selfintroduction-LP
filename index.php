@@ -9,12 +9,15 @@
         <meta property="og:title" content="kurayoshi's portfolio">
         <meta property="og:description" content="kurayoshi's portfolio ポジティブ思考のおっさんの自己紹介、どの様なサービスを提供出来るのか、実際にこんな事が出来ますというものを載せています。お仕事のご相談、ご依頼も受け付けております。">
         <!---------- OGPの設定 ここまで ---------->
+
         <!-- リセットCSSを読み込む -->
         <link rel="stylesheet" href="css/reset.css">
         <!-- 自作のCSSを読み込む -->
         <link rel="stylesheet" href="css/style.css">
         <!-- BootStrapを読み込む -->
         <link href="css/BootStrap.css/bootstrap.min.css" rel="stylesheet">
+        <!-- アイコン表示のためFont Awesomeを読み込む -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <!-- 画像をポップアップで表示させる -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -58,8 +61,8 @@
 
             <!---------- about表示 ---------->
             <div id="about" class="about">
-                <div class="text-center heading">
-                    <h2>ABOUT</h2>
+                <div class="heading">
+                    <h2><i class="far fa-lightbulb"></i><span>ABOUT</span></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 about-contents">
@@ -140,7 +143,7 @@
             <!---------- service表示 ---------->
             <div id="service" class="service">
                 <div class="text-center heading">
-                    <h2>service</h2>
+                    <h2><i class="far fa-lightbulb"></i><span>SERVICE</span></h2>
                 </div>
                 <div class="service-container">
                     <ul>
@@ -165,7 +168,7 @@
 
             <div id="works" class="works">
                 <div class="text-center heading">
-                    <h2>works</h2>
+                    <h2><i class="far fa-lightbulb"></i><span>WORKS</span></h2>
                 </div>
                 <div class="text-center notes">
                     <p>画像をクリックすると拡大されます</p>
