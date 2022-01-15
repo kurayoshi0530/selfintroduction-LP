@@ -241,12 +241,31 @@ body .heading h2 span:after {
   padding: 0;
   list-style: none;
 }
-.service li {
+.service .ser-content {
   background: #ffffff;
   text-align: center;
   border-radius: 20px;
   margin: 30px 20px;
   padding: 50px 20px;
+  -webkit-transform: translateX(-50px);
+  transform: translateX(-50px);
+  /* 最初は元の位置より左にずらしておく */
+  opacity: 0;
+  /* 最初は非表示にしておく */
+  -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+  transition: opacity 1s, -webkit-transform 0.5s;
+  transition: opacity 1s, transform 0.5s;
+  transition: opacity 1s, transform 0.5s, -webkit-transform 0.5s;
+}
+.service .fadein {
+  opacity: 1;
+  /* 表示させる */
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  /* 位置を最初の位置に戻す */
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  /* フェードイン速度の調整 */
 }
 
 .works .notes {

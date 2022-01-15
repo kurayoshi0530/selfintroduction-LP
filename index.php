@@ -145,7 +145,6 @@
                                     </p>
                                 </div>
                             </div>
-                            
                         </div>
                     </div> <!-- end skill -->
                 </div> <!-- end row -->

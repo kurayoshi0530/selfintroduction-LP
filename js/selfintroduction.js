@@ -28,7 +28,7 @@ $(function() {
 
 /*
 --------------------------------------------------
-worksの画像がスライドインで表示される
+serviceアニメーション実装
 --------------------------------------------------
 */
 //ウィンドウの高さを取得する
@@ -40,7 +40,7 @@ $(window).on("scroll", function() {
     //スクロールの位置を取得する
     var scroll_top = $(window).scrollTop();
 
-    $(".work-img").each(function() {
+    $(".ser-content, .work-img").each(function() {
         //各box要素のtopの位置を取得する
         var elem_pos = $(this).offset().top;
         //どのタイミングでフェードインさせるか
