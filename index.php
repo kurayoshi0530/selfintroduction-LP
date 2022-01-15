@@ -61,8 +61,8 @@
 
             <!---------- about表示 ---------->
             <div id="about" class="about">
-                <div class="heading">
-                    <h2><i class="far fa-lightbulb"></i><span>ABOUT</span></h2>
+                <div class="text-center heading">
+                    <h2>ABOUT</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 about-contents">
@@ -154,7 +154,7 @@
             <!---------- service表示 ---------->
             <div id="service" class="service">
                 <div class="text-center heading">
-                    <h2><i class="far fa-lightbulb"></i><span>SERVICE</span></h2>
+                    <h2>SERVICE</h2>
                 </div>
                 <div class="service-container">
                     <ul>
@@ -179,7 +179,7 @@
 
             <div id="works" class="works">
                 <div class="text-center heading">
-                    <h2><i class="far fa-lightbulb"></i><span>WORKS</span></h2>
+                    <h2>WORKS</h2>
                 </div>
                 <div class="text-center notes">
                     <p>画像をクリックすると拡大されます</p>
