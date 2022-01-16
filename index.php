@@ -207,7 +207,7 @@
             <!---------- /works表示 ---------->
 
             <div id="contact" class="contact">
-                <a href="contactform.php">お問合せページへ</a>
+                <!-- <a href="contactform.php">お問合せページへ</a> -->
             </div>
         </div> <!-- end container -->
 
