@@ -157,10 +157,6 @@
                         <li class="ser-content">
                             <h3>Webサイト（HP,LP）制作</h3>
                             <p>クライアント様が作りたいサイトを綿密なヒアリングを通して形にします。<br><span>詳細は下記リンクでご確認ください。</span></p>
-                            <div class="d-flex justify-content-evenly service-link">
-                                <a href="https://coconala.com/services/1988888?ref=top_histories&ref_kind=home&ref_no=2">HP制作</a>
-                                <a href="https://coconala.com/services/1995057?ref=top_histories&ref_kind=home&ref_no=2">LP制作</a>
-                            </div>
                         </li>
                         <li class="ser-content">
                             <h3>レスポンシブデザイン対応</h3>
